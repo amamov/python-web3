@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "python stater"
+name = "python web3 basic"
 version = "0.1.0"
-description = "python3 app stater with package manager poetry"
+description = "python web3 basic app"
 authors = ["amamov <amamov@kakao.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 python-dotenv = "^0.19.1"
+web3 = "^5.28.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
