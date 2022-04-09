@@ -2,7 +2,8 @@
 
 > basic python web3 program
 
-- [docs](https://web3py.readthedocs.io/en/stable/quickstart.html)
+- [web3 docs](https://web3py.readthedocs.io/en/stable/quickstart.html)
+- [polygon docs](https://docs.polygon.technology/docs/develop/network-details/network/)
 
 ## Getting Start
 
