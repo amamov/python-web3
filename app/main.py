@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from web3 import Web3
 from web3.providers.rpc import HTTPProvider
-from app_config import static_files, templates, NETWORK_RPC_URI
+from .app_config import static_files, templates, NETWORK_RPC_URI
 
 
 app = FastAPI()
@@ -28,7 +28,6 @@ async def index(req: Account):
     account = req.account
     w3 = Web3(HTTPProvider(NETWORK_RPC_URI))
     print(w3.isConnected())
-
     return {"account": account}
 
 

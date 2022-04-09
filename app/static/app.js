@@ -1,7 +1,6 @@
 function connectAccount() {
     if (window.ethereum) window.ethereum.request({ method: "eth_requestAccounts" })
         .then((accounts) => {
-            console.log(accounts)
             fetch("/web3", {
                 method: "POST",
                 headers: {
