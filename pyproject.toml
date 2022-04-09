@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python stater"
+version = "0.1.0"
+description = "python3 app stater with package manager poetry"
+authors = ["amamov <amamov@kakao.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^0.19.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+black = {version = "^21.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
